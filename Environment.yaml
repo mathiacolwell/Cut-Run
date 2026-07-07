@@ -1,0 +1,10 @@
+name: cutnrun-pipeline
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - macs3=3.0.*        # peak calling with input/IgG control support (BAMPE mode)
+  - samtools=1.19
+  - r-base=4.3.*
