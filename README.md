@@ -85,7 +85,7 @@ Rscript install_r_packages.R
 Outputs are written to `<OUTDIR>/08_peaks/` (peak calls) and
 `<OUTDIR>/diffbind_results/` (annotated differential binding tables).
 
-## Why these tools? (rationale for package choices)
+## Tool Justification
 
 **MACS3 for peak calling, rather than SEACR.**
 SEACR was purpose-built for CUT&RUN/CUT&Tag data and is a reasonable
